@@ -1,0 +1,8 @@
+ro.agui.platform_name=mt6895
+ro.agui.version_release=13
+ro.boot.vendor.overlay.theme=com.adups.fota.overlay
+ro.fota.app=5
+ro.fota.battery=30
+ro.fota.oem=agold_mt6895_13.0
+ro.fota.platform=mt6895_13.0
+ro.fota.type=phone
