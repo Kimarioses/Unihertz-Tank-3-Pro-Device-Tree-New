@@ -6,19 +6,8 @@
 
 DEVICE_PATH := device/oblue/TANK3
 
-# A/B
-AB_OTA_UPDATER := true
-AB_OTA_PARTITIONS += \
-    system \
-    vbmeta_system \
-    odm_dlkm \
-    boot \
-    product \
-    vbmeta_vendor \
-    vendor_dlkm \
-    system_ext \
-    vendor \
-    vendor_boot
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -43,6 +32,9 @@ TARGET_NO_BOOTLOADER := true
 
 # Display
 TARGET_SCREEN_DENSITY := 480
+
+# DTBO
+BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Kernel
 TARGET_NO_KERNEL := true
