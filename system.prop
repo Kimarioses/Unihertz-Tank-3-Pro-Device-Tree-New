@@ -1,4 +1,16 @@
+# Dynamic Partitions
+ro.boot.dynamic_partitions=true
 
+# Fstab
+ro.postinstall.fstab.prefix=/system
+
+# USB MTP
+ro.sys.usb.storage.type=mtp
+
+# Crypto
+ro.crypto.volume.filenames_mode=aes-256-cts
+
+# Misc
 ro.actionable_compatible_property.enabled=true
 ro.agui.device_name=TANK 3
 ro.agui.platform_name=mt6895
