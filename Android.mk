@@ -1,11 +1,11 @@
 #
-# Copyright (C) 2024 The LineageOS Project
+# Copyright (C) 2024 The TWRP Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mssi_g91v95c2k_dfl_eea)
+ifeq ($(TARGET_DEVICE),TANK3)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
