@@ -9,12 +9,3 @@ ro.sys.usb.storage.type=mtp
 
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
-
-# Misc
-ro.actionable_compatible_property.enabled=true
-ro.agui.device_name=TANK 3
-ro.agui.platform_name=mt6895
-ro.agui.product_name=TANK3_EEA
-ro.agui.real_version=TANK3_EEA_20240619-1634
-ro.agui.version_release=13
-ro.postinstall.fstab.prefix=/system
