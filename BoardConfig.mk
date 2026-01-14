@@ -73,7 +73,8 @@ BOARD_OBLUE_DYNAMIC_PARTITIONS_PARTITION_LIST := \
     system \
     product \
     system_ext \
-    vendor
+    vendor \
+    system_dlkm
 BOARD_OBLUE_DYNAMIC_PARTITIONS_SIZE := 9122611200 # TODO: Fix hardcoded value
 
 # Workaround for copy_out error
