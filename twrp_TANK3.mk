@@ -22,6 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 # Configure emulated_storage.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
+PRODUCT_DEVICE := TANK3
+PRODUCT_NAME := twrp_TANK3
+PRODUCT_BRAND := 8849
+PRODUCT_MODEL := TANK 3
 PRODUCT_MANUFACTURER := A-gold
-PRODUCT_BRAND := Unihertz
-PRODUCT_MODEL := TANK3 Pro
+
+PRODUCT_GMS_CLIENTID_BASE := android-agold
