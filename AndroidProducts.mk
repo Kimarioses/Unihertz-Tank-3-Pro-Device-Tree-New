@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2024 The LineageOS Project
+# Copyright (C) 2024 The TWRP Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mssi_g91v95c2k_dfl_eea.mk
+    $(LOCAL_DIR)/twrp_TANK3.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_mssi_g91v95c2k_dfl_eea-user \
-    lineage_mssi_g91v95c2k_dfl_eea-userdebug \
-    lineage_mssi_g91v95c2k_dfl_eea-eng
+    twrp_TANK3-user \
+    twrp_TANK3-userdebug \
+    twrp_TANK3-eng
