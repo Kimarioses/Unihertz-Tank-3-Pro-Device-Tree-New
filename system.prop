@@ -17,5 +17,4 @@ ro.agui.platform_name=mt6895
 ro.agui.product_name=TANK3_EEA
 ro.agui.real_version=TANK3_EEA_20240619-1634
 ro.agui.version_release=13
-ro.allow.mock.location=0
 ro.postinstall.fstab.prefix=/system
