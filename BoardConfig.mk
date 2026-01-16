@@ -151,7 +151,7 @@ TW_INCLUDE_FASTBOOTD := true
 TW_USB_STORAGE := true
 
 # Version
-TW_DEVICE_VERSION := Kelvin
+TW_DEVICE_VERSION := Kelvin+
 
 # TWRP Backup options
 TW_BACKUP_EXCLUSIONS := /data/fonts/files
