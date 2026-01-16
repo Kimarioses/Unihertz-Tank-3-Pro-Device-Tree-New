@@ -1,26 +1,16 @@
-$(call inherit-product, device/oblue/TANK3/patches.mk ) 
+#
+# Copyright (C) 2022 The LineageOS Project
+#
+# SPDX-License-Identifier: Apache-2.0
+#
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
-
-# Configure twrp config common.mk
-$(call inherit-product, vendor/twrp/config/common.mk)
-
-# Device specific configs
+# Inherit from TANK3 device
 $(call inherit-product, device/oblue/TANK3/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-# Configure launch_with_vendor_ramdisk.mk
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
-
-# Configure compression
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/compression.mk)
-
-# Configure virtual_ab_ota.mk
-$(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
-
-# Configure emulated_storage.mk
-$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 PRODUCT_DEVICE := TANK3
 PRODUCT_NAME := twrp_TANK3
